@@ -68,7 +68,7 @@ TOTAL_DAYS = 60
 56: "📖 Reading: academic passage\n🗣 Speaking: Describe a famous historical event (2 min).", 57: "✍️ Writing Task 2: 'Should public transport be free?'\n📚 Vocab: final review.", 
 58: "🎧 Listening: Cambridge/full section\n📝 Grammar: linking words in writing (10 examples).", 
 59: "🔁 Review: full Speaking mock + short Writing (150 words).", 
-60: "🏁 FINAL: Full mock test — Listening, Reading, Writing, Speaking (simulate real timing)." }
+60: "🏁 FINAL: Full mock test — Listening, Reading, Writing, Speaking (simulate real timing)." 
 
 # ====== HELPERS ======
 def load_subscribers():
