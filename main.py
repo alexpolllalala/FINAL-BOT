@@ -17,7 +17,7 @@ SEND_TIME_UTC = dtime(hour=1, minute=0, second=0, tzinfo=timezone.utc)
 TOTAL_DAYS = 60
 
 # ====== ЗАВДАННЯ (60 ДНІВ, короткі й практичні) ====== tasks = { 1: "🎧 Listening: Cambridge sample Section 
-1\n✍️ Writing: 5 sentences about your city.", 
+1: "🎧 Listening: Cambridge sample Section 1\n✍️ Writing: 5 sentences about your city.",
 2: "📖 Reading: short BBC article\n🗣 Speaking: Describe your typical day (2 min).", 
 3: "🎧 Listening: Cambridge sample Section 2\n✍️ Writing: 5 sentences about your home.", 
 4: "📖 Reading: Wikipedia – read one page\n🗣 Speaking: Describe a friend (2 min).", 
