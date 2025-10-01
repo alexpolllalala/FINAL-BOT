@@ -16,7 +16,8 @@ SUBS_FILE = "subscribers.json"
 SEND_TIME_UTC = dtime(hour=1, minute=0, second=0, tzinfo=timezone.utc)
 TOTAL_DAYS = 60
 
-# ====== ЗАВДАННЯ (60 ДНІВ, короткі й практичні) ====== tasks = { 1: "🎧 Listening: Cambridge sample Section 
+# ====== ЗАВДАННЯ (60 ДНІВ, короткі й практичні) ====== tasks = { 1: "🎧 Listening: Cambridge sample Section
+tasks = {
 1: "🎧 Listening: Cambridge sample Section 1\n✍️ Writing: 5 sentences about your city.",
 2: "📖 Reading: short BBC article\n🗣 Speaking: Describe your typical day (2 min).", 
 3: "🎧 Listening: Cambridge sample Section 2\n✍️ Writing: 5 sentences about your home.", 
@@ -69,6 +70,7 @@ TOTAL_DAYS = 60
 58: "🎧 Listening: Cambridge/full section\n📝 Grammar: linking words in writing (10 examples).", 
 59: "🔁 Review: full Speaking mock + short Writing (150 words).", 
 60: "🏁 FINAL: Full mock test — Listening, Reading, Writing, Speaking (simulate real timing)." 
+}    
 
 # ====== HELPERS ======
 def load_subscribers():
